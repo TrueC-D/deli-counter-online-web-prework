@@ -1,5 +1,6 @@
 katz_deli = []
 
+<<<<<<< HEAD
 def line (katz_deli)
   kd = []
   if katz_deli == []
@@ -24,5 +25,12 @@ def now_serving (katz_deli)
     katz_deli.shift
   else
     puts "There is nobody waiting to be served!"
+=======
+def take_a_number (katz_deli, name)
+  katz_deli<< name
+  katz_deli.length = line
+  katz_deli.collect.each_with_index do |katz_deli|
+    puts "Welcome, #{name}. You are number #{line} in line."
+>>>>>>> b2181bf0053f75d921646409239b2c866a65a16e
   end
 end
