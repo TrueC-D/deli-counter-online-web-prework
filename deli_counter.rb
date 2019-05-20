@@ -1,6 +1,5 @@
 katz_deli = []
 
-<<<<<<< HEAD
 def line (katz_deli)
   kd = []
   if katz_deli == []
