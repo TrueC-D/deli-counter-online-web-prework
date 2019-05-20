@@ -24,13 +24,16 @@ def now_serving (katz_deli)
     katz_deli.shift
   else
     puts "There is nobody waiting to be served!"
-
-def take_a_number (katz_deli, name)
-  katz_deli<< name
-  katz_deli.length = line
-  katz_deli.collect.each_with_index do |katz_deli|
-    puts "Welcome, #{name}. You are number #{line} in line."
   end
+end
+
+#def take_a_number (katz_deli, name)
+ # katz_deli<< name
+  #katz_deli.length = line
+  #katz_deli.collect.each_with_index do |katz_deli|
+  #  puts "Welcome, #{name}. You are number #{line} in line."
+  #end
 
   
-end
+
+#end
